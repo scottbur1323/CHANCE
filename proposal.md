@@ -19,4 +19,4 @@ Way too ambitious things to do that may be realized after I complete the MVP:
 
 ### What technologies do you plan to use?
 Frontend: React.js (unfamiliar tech) HTML5/CSS3
-Backend: Heroku, Node.js, Express, MongoDB
+Backend: Heroku, Node.js, Express, Knex.js, PostgreSQL
