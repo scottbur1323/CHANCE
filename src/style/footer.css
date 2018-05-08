@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ddd;
+  min-height: 6vh;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  font-family: 'Sanchez', serif;
+  padding-left: 10px;
+  font-size: 13px;
+  background: linear-gradient(#868FCB, #bbb);
+}

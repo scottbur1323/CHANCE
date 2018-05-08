@@ -1,0 +1,61 @@
+.splash-body {
+  display: flex;
+  flex-flow: column;
+  background-color: #CCC;
+  max-height: 85vh;
+  min-height: 85vh;
+  min-width: 646.5px;
+  max-width: 100%;
+}
+.splash-body-top {
+  display: flex;
+  flex-flow: row;
+  background-color: #CCC;
+  height: 60%;
+  max-height: 60%;
+  width: 100%;
+}
+.splash-body-bottom {
+  background-color: #CCC;
+  background: linear-gradient(#eee, #ccc);
+  height: 40%;
+  max-height: 40%;
+  max-width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow-y: scroll;
+  font-family: 'Sanchez', serif;
+  background: linear-gradient(#ccc, #A5A9BF);
+  border-style: solid;
+  border-width: thin;
+  border-color: #aaa
+}
+.docPhoto {
+  max-width: 50%;
+  min-width: 50%;
+  max-height: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #aaa
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  min-width: 50%;
+  max-height: 100%;
+}
+.nav .button {
+  height: 20%;
+  background: linear-gradient(#eee, #ccc);
+  min-width: 200px;
+  font-family: 'Sanchez', serif;
+  font-size: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #aaa
+}
+.nav .button:hover {
+  height: 20%;
+  background: linear-gradient(#eee, #72BAB6);
+}

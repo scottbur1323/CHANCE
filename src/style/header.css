@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  height: 10vh;
+  min-height: 80px;
+  min-width: 100%;
+  position: fixed;
+  top: 0px;
+  background: linear-gradient(#A1A5C1, #bbb);
+  font-family: 'Sanchez', serif;
+  font-size: 35px;
+}
