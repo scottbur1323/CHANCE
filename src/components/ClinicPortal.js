@@ -1,27 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './splash/Header'
+import Login from './Login'
 import Footer from './splash/Footer'
 
 
 import '../style/clinic-portal.css';
 
-class Clinic extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      message: ''
-    }
-  }
-  render() {
+const Clinic = (props) => {
     return (
       <div className="clinicPortal">
         <Header />
-        <p>FUCKING CLINIC</p>
+        <div className="portalName">
+          <h2>Clinic Portal</h2>
+        </div>
+        <Login onClinicClick={props.onClinicClick}/>
         <Footer />
       </div>
-    );
-  }
+    )
 }
 
 export default Clinic;

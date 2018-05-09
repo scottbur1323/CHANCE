@@ -1,0 +1,15 @@
+.patientPortal {
+  background-color: #eee;
+}
+
+.portalName {
+  width: 100vw;;
+  display: flex;
+  justify-content:center;
+  align-items: stretch;
+  position: absolute;
+  z-index:1;
+  font-family: 'Sanchez', serif;
+  font-size: 20px;
+  margin-top: 50px;
+}

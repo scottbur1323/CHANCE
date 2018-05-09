@@ -1,27 +1,23 @@
 import React, { Component } from 'react';
 import Header from './splash/Header'
+import Login from './Login'
 import Footer from './splash/Footer'
 
 
 import '../style/patient-portal.css';
 
-class Patient extends Component {
-  constructor(props) {
-    super(props)
+const PatientPortal = (props) => {
 
-    this.state = {
-      message: ''
-    }
-  }
-  render() {
     return (
       <div className="patientPortal">
         <Header />
-        YEAH YEAH FUCK YOU CHANCE
+          <div className="portalName">
+            <h2>Patient Portal</h2>
+          </div>
+        <Login onClinicClick={props.onInfoClick}/>
         <Footer />
       </div>
-    );
-  }
+    )
 }
 
-export default Patient;
+export default PatientPortal;

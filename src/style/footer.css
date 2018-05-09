@@ -5,11 +5,12 @@
   align-items: flex-start;
   background-color: #ddd;
   min-height: 6vh;
-  bottom: 0;
+  bottom: 0px;
+  left: 0px;
   position: fixed;
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
   font-family: 'Sanchez', serif;
-  padding-left: 10px;
   font-size: 13px;
   background: linear-gradient(#868FCB, #bbb);
 }

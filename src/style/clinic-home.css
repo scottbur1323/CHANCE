@@ -1,0 +1,59 @@
+.clinicHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+  background-color: black;
+  background: linear-gradient(#8F97C3, #ddd);
+}
+.clinicHome .currentPatients {
+  width: 700px;
+  height: 466px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-width: thin;
+  border-style: solid;
+}
+.currentPatients .patientName {
+  background-color: #ddd;
+  width: 400px;
+  min-height: 40px;
+  display: flex;
+  flex-flow: column;
+}
+.currentPatients .patientAge {
+  background-color: #ccc;
+  width: 150px;
+  min-height: 40px;
+  display: flex;
+  flex-flow: column;
+}
+.currentPatients .patientTime {
+  background-color: #bbb;
+  width: 150px;
+  min-height: 40px;
+  display: flex;
+  flex-flow: column;
+}
+.currentTitle {
+  display: flex;
+  flex-flow: column;
+  font-size: 20px;
+  margin-top: 120px;
+  margin-bottom: -20px;
+}
+.currentPatients .columnTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+div .patient {
+  border-width: thin;
+  border-style: solid;
+}
+section div :hover {
+  background-color: #aaa;
+}

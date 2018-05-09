@@ -8,7 +8,9 @@
   min-width: 100%;
   position: fixed;
   top: 0px;
+  left: 0px;
   background: linear-gradient(#A1A5C1, #bbb);
   font-family: 'Sanchez', serif;
   font-size: 35px;
+  z-index:1;
 }
